@@ -1,0 +1,129 @@
+body {
+	border: none;
+	margin: 0px;
+}
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'arial';
+    cursor: pointer;
+}
+
+
+#topmenu {
+    list-style: none;
+	background-color:blue;
+	width: 100%;
+	height: 70%;
+	padding: 5px;
+
+}
+    nav {
+        width: 70%;
+        vertical-align: middle;
+        color:white;
+        
+    }
+    #main-menu ul {
+        font-family: arial;
+        display: flex;
+        list-style-type: none;
+        margin: 0px 15px;
+        padding: 15px;
+    }
+    #main-menu li {
+        display: inline;
+        word-spacing: 5px;
+    }
+    a {
+        text-decoration: none;
+        color:aliceblue;
+        text-align:justify;
+        vertical-align:0%;
+        
+    }
+
+
+#NewsRegister{
+    padding: 15px;
+	vertical-align: left;
+}
+
+
+#wrapper{
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+
+#header{
+    width: 100%;
+    padding: 0px 50px 20px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    #header-logo{
+        max-width: 0px;
+        max-height: -100px;
+        float: left;
+        position:relative;
+        top:5px;
+        right:5px;
+    }
+
+
+#menu {
+    list-style: none;
+    display: flex;
+    }
+    #menu .item{
+        margin: 0px 15px;
+    }
+    #menu .item a{
+        color: #626a67;
+        text-decoration: none;
+    }
+
+#actions{
+    display: flex;
+    }
+    #actions .item{
+    
+        margin-left: 20px;
+    }
+
+.maincontent {
+	background-color: whitesmoke;
+	width: 100%;
+	height: 500px;
+	padding: 10px;
+	display:flex;
+}
+.bottomemenu{
+    background-color:rgb(72, 72, 204);
+	width: 100%;
+	height: 70%;
+	padding: 5px;
+}
+footer {
+	padding: 20px;
+	vertical-align: top;
+	text-align: left;
+    font-family: arial;
+    display: flex;
+    list-style: none;
+}
+#contact-us li, #info li, #services li{
+    list-style-type: none;
+    margin: 20px;
+    padding: -5px;
+
+}
+#info , #services, #contact-us {
+    text-align: left;
+    font-size: 13px;
+    font-weight: 300 ;
+}
